@@ -45,6 +45,7 @@ var testCasesByHand = {
     [['one', 'two', 'three'], 'length'],
   ],
   keyBy: [
+    [{a: {name: 'a'}, b: {name: 'b'}, c: {name: 'c'}, 'name'],
     [[{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}], 'age'],
     [[{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}], 'age'],
   ],
