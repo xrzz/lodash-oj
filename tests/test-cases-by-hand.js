@@ -10,6 +10,7 @@ var testCasesByHand = {
   identity: [
     [{a:1}],
     [[1,2,3]],
+    [1,2,2],
   ],
   map: [
     [[1, 2, 3], function(v,i,o) {return v+i+o.length*2}],
